@@ -2387,14 +2387,7 @@ NAME can be a Lisp symbol or string.  SYMBOL is a `js2-symbol'."
                (:include js2-scope)
                (:constructor make-js2-script-node (&key (type js2-SCRIPT)
                                                         (pos (js2-current-token-beg))
-                                                        len)))
-  functions   ; Lisp list of nested functions
-  regexps     ; Lisp list of (string . flags)
-  symbols     ; alist (every symbol gets unique index)
-  (param-count 0)
-  var-names   ; vector of string names
-  consts      ; bool-vector matching var-decls
-  (temp-number 0))  ; for generating temp variables
+                                                        len))))
 
 (js2--struct-put 'js2-script-node 'js2-visitor 'js2-visit-block)
 (js2--struct-put 'js2-script-node 'js2-printer 'js2-print-script)
