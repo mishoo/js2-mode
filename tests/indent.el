@@ -1,3 +1,4 @@
+;;; -*- lexical-binding: t -*-
 ;;; tests/indent.el --- Some tests for js2-mode.
 
 ;; Copyright (C) 2009, 2011-2016  Free Software Foundation, Inc.
@@ -41,7 +42,6 @@
   `(ert-deftest ,(intern (format "js2-%s" name)) ()
      (let ,(append '(indent-tabs-mode
                      (js2-basic-offset 2)
-                     (js2-pretty-multiline-declarations t)
                      (inhibit-point-motion-hooks t))
                    bind)
        (js2-test-indent ,content ,keep-indent))))

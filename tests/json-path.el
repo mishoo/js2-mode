@@ -1,3 +1,4 @@
+;;; -*- lexical-binding: t -*-
 ;;; tests/json-path.el --- Test of using js2-mode AST to print JSON path.
 
 ;; Copyright (C) 2015  Free Software Foundation, Inc.

@@ -1,3 +1,4 @@
+;;; -*- lexical-binding: t -*-
 ;;; tests/jsdoc.el --- Tests for js2-mode highlighting of jsdoc comments.
 
 ;; Copyright (C) 2009, 2011-2017  Free Software Foundation, Inc.

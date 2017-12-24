@@ -1,3 +1,4 @@
+;;; -*- lexical-binding: t -*-
 ;;; tests/navigation.el --- Some tests for js2-mode.
 
 ;; Copyright (C) 2009, 2011-2015  Free Software Foundation, Inc.
